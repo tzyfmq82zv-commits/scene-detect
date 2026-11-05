@@ -39,3 +39,19 @@ Ultralytics/
 *.avi
 *.mov
 *.mkv
+
+# 本地测试与报告辅助文件
+export_pdf.py
+report/
+report_assets/
+tools/linkcheck.py
+scene_detect/test_appearance.py
+scene_detect/make_test_video.py
+scene_detect/extract_interaction.py
+scene_detect/adapters/detect_fall_onsets.py
+
+# 生成的示例输出
+*_events*.json
+output_*.json
+scene_six_contact.jpg
+*.docx
