@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 模型权重
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+*.bin
+
+# 训练与推理输出
+runs/
+scene_detect/runs*/
+output/
+*.jsonl
+*.tmp
+*.log
+
+# Ultralytics 缓存
+Ultralytics/
+.ultralytics/
+
+# 视频数据
+*.mp4
+*.avi
+*.mov
+*.mkv
